@@ -1,5 +1,61 @@
 {
-  "cart": [],
+  "cart": [
+    {
+      "content": "apple",
+      "id": 1,
+      "amount": 1
+    },
+    {
+      "content": "peach",
+      "id": 2,
+      "amount": 1
+    },
+    {
+      "content": "banana",
+      "id": 3,
+      "amount": 1
+    },
+    {
+      "content": "orange",
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "content": "grape",
+      "id": 5,
+      "amount": 1
+    },
+    {
+      "content": "pineapple",
+      "id": 6,
+      "amount": 1
+    },
+    {
+      "content": "mango",
+      "id": 7,
+      "amount": 1
+    },
+    {
+      "content": "kiwi",
+      "id": 8,
+      "amount": 1
+    },
+    {
+      "content": "strawberry",
+      "id": 9,
+      "amount": 1
+    },
+    {
+      "content": "blueberry",
+      "id": 10,
+      "amount": 2
+    },
+    {
+      "content": "watermelon",
+      "id": 11,
+      "amount": 1
+    }
+  ],
   "inventory": [
     {
       "content": "apple",
@@ -8,6 +64,78 @@
     {
       "content": "peach",
       "id": 2
+    },
+    {
+      "content": "banana",
+      "id": 3
+    },
+    {
+      "content": "orange",
+      "id": 4
+    },
+    {
+      "content": "grape",
+      "id": 5
+    },
+    {
+      "content": "pineapple",
+      "id": 6
+    },
+    {
+      "content": "mango",
+      "id": 7
+    },
+    {
+      "content": "kiwi",
+      "id": 8
+    },
+    {
+      "content": "strawberry",
+      "id": 9
+    },
+    {
+      "content": "blueberry",
+      "id": 10
+    },
+    {
+      "content": "watermelon",
+      "id": 11
+    },
+    {
+      "content": "cherry",
+      "id": 12
+    },
+    {
+      "content": "pear",
+      "id": 13
+    },
+    {
+      "content": "plum",
+      "id": 14
+    },
+    {
+      "content": "raspberry",
+      "id": 15
+    },
+    {
+      "content": "blackberry",
+      "id": 16
+    },
+    {
+      "content": "apricot",
+      "id": 17
+    },
+    {
+      "content": "coconut",
+      "id": 18
+    },
+    {
+      "content": "fig",
+      "id": 19
+    },
+    {
+      "content": "lemon",
+      "id": 20
     }
   ]
 }

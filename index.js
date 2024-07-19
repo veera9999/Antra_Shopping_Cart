@@ -133,10 +133,12 @@ const View = (() => {
       const li = document.createElement("li");
       li.innerHTML = `
         <span>${item.content}</span>
+        <span class="inventory-li-buttons-span">
         <button class="decrement" data-id="${item.id}">-</button>
         <span class="amount" data-id="${item.id}">${item.amount || 0}</span>
         <button class="increment" data-id="${item.id}">+</button>
-        <button class="add-to-cart" data-id="${item.id}">Add to Cart</button>`;
+        <button class="add-to-cart" data-id="${item.id}">Add to Cart</button>
+        </span>`;
       fragment.appendChild(li);
     });
 
