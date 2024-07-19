@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.nav-container {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 20px;
+}
+
+.inventory-container,
+.cart-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.inventory-container {
+  flex: 1.5;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #a89a89;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 2px;
+  font-size: 0.9rem;
+}
+
+.decrement {
+  background-color: #b33e3e;
+  color: white;
+}
+
+.increment {
+  background-color: #326e32;
+  color: white;
+}
+
+.add-to-cart,
+.delete {
+  background-color: #294978;
+  color: white;
+}
+
+.amount {
+  margin: 0 10px;
+}
+
+.checkout-btn,
+.add-inventory-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+.add-inventory-btn {
+  background-color: #7089b0;
+}
+@media (min-width: 768px) {
+  #app {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .inventory-container,
+  .cart-container {
+    width: 45%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .inventory-container,
+  .cart-container {
+    max-width: 800px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
